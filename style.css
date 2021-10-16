@@ -1,0 +1,994 @@
+*{ margin: 0; padding: 0;}
+ul,li,ol{ list-style: none;}
+img{ display: block;}
+a{ text-decoration: none; color: #464646;}
+h1,h2,h3{ font-size: 16px;}
+
+.head_container{
+    width: 1170px;
+    height: 96px;
+    margin: 0 auto;
+    position: relative;
+}
+.head_container .left_logo{
+    width: 620px;
+    height: 70px;
+}
+.head_container .left_logo img:first-child{
+    width: 307px;
+    height: 61px;
+    float: left;
+    margin: 15px 20px 0 0;
+}
+.head_container .left_logo img:last-child{
+    width: 289px;
+    height: 68px;
+    float: left;
+    margin-top: 2px;
+}
+.head_container .right_nav1{
+    width: 72px;
+    height: 15px;
+    position: absolute; right: 120px; top: 60px;
+}
+.head_container .right_nav1 div{
+    width: 17px;
+    height: 14px;
+    background: url(./images/icon_bg.gif) no-repeat 0 0;
+    float: left;
+    margin-right: 5px;
+}
+.head_container .right_nav1 p{
+    width: 48px;
+    height: 12px;
+    font-size: 12px;
+    color: #9b9b9b;
+    float: left;
+}
+.head_container .right_nav1 p:hover{
+    color: red;
+}
+.head_container .right_nav2{
+    width: 72px;
+    height: 15px;
+    position: absolute; right: 0px; top: 60px;
+}
+.head_container .right_nav2 div{
+    width: 16px;
+    height: 16px;
+    background: url(./images/icon_bg.gif) no-repeat 0 -30px;
+    float: left;
+    margin-right: 5px;
+}
+.head_container .right_nav2 p{
+    width: 48px;
+    height: 12px;
+    font-size: 12px;
+    color: #9b9b9b;
+    float: left;
+}
+.head_container .right_nav2 p:hover{
+    color: red;
+}
+.head_nav{
+    width: 100%;
+    height: 40px;
+    background: #2e2e2e;
+}
+.head_nav ul{
+    width: 1130px;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head_nav ul li:first-child{
+    width: 64px;
+    height: 43px;
+    background: #fd4a13;
+    box-shadow: 8px 15px rgba(0, 0, 0, .5)
+}
+.head_nav ul li:first-child a{
+    margin-left: 12px;
+    letter-spacing: 8px;
+}
+.head_nav ul li{
+    width: 64px;
+    height: 43px;
+    float: left;
+    margin: -5px 30px 0 22px;
+}
+.head_nav ul li a{
+    color: #eaeaea;
+    line-height: 45px;
+}
+/* .head_nav ul li a:first-child{
+    margin-left: 1px;
+} */
+.head_nav ul li a:hover{
+    color: #ff7202;
+}
+.banner1{
+    width: 1170px;
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner1 .right{
+    width: 888px;
+    height: 285px;
+    background: url(./images/pic.gif) no-repeat;
+    background-size: cover;
+    position: absolute; left: 0; top: 10px;
+}
+.banner1 .right .one{
+    font-size: 11px;
+    color: #eaeaea;
+    position: absolute; left: 700px; top: 72px;
+}
+.banner1 .right .two{
+    font-size: 11px;
+    color: #eaeaea;
+    position: absolute; left: 772px; top: 86px;
+}
+.banner1 .right .three{
+    width: 110px;
+    height: 23px;
+    /* border: 1px red solid; */
+    position: absolute; left: 718px; top: 105px;
+}
+.banner1 .right .three h2{
+    font-size: 23px;
+    color: #eaeaea;
+    position: absolute; left: 2px; top: -5px;
+}
+.banner1 .right .three div img{
+    width: 5px;
+    height: 20px;
+    position: absolute; left: 105px; top: 3px;
+}
+.banner1 .right .four{
+    font-size: 15px;
+    color: #eaeaea;
+    position: absolute; left: 740px; top: 145px;
+}
+.banner1 .right .five{
+    font-size: 15px;
+    color: #eaeaea;
+    position: absolute; left: 592px; top: 165px;
+}
+.banner1 .right .seven{
+    width: 170px;
+    height: 26px;
+    position: absolute; left: 676px; top: 220px;
+}
+.banner1 .right .seven ul{
+    width: 100%;
+    height: 100%;
+}
+.banner1 .right .seven ul li:first-child{
+    width: 32px;
+    height: 26px;
+    background: #ff7202;
+    color: #eaeaea;
+}
+.banner1 .right .seven ul li{
+    width: 28px;
+    height: 24px;
+    border: 1px #ff7202 solid;
+    float: left;
+    margin-right: 10px;
+    background: #eaeaea;
+    line-height: 24px;
+    text-align: center;
+    color: #ff7202;
+    font-size: 18px;
+    font-weight: 900;
+}
+.banner1 .left{
+    width: 282px;
+    height: 285px;
+    background: #1f1e1e;
+    position: absolute; left: 888px; top: 10px;
+}
+.banner1 .left h2{
+    font-size: 15px;
+    color: #eaeaea;
+    position: absolute; left: 30px; top: 52px;
+}
+.banner1 .left .one{
+    font-size: 11px;
+    color: #eaeaea;
+    position: absolute; left: 30px; top: 76px;
+}
+.banner1 .left div{
+    width: 160px;
+    height: 26px;
+    /* border: 1px red solid; */
+    position: absolute; left: 30px; top: 108px;
+}
+.banner1 .left div li{
+    width: 28px;
+    height: 26px;
+    float: left;
+    margin-right: 10px;
+}
+.banner1 .left .two{
+    font-size: 12px;
+    color: #eaeaea;
+    position: absolute;  left: 56px; top: 160px;
+}
+.banner1 .left .three{
+    font-size: 12px;
+    color: #eaeaea;
+    position: absolute;  left: 30px; top: 180px;
+}
+.banner1 .left .four{
+    font-size: 12px;
+    color: #eaeaea;
+    position: absolute;  left: 30px; top: 200px;
+}
+.banner1 .left .five{
+    font-size: 12px;
+    color: #eaeaea;
+    position: absolute;  left: 30px; top: 220px;
+}
+.banner2{
+    width: 1170px;
+    height: 32px;
+    border: 1px #c4c4c4 solid;
+    margin: 25px auto;
+    position: relative;
+}
+.banner2 .left{
+    width: 98px;
+    height: 32px;
+    border-right: 1px #c4c4c4 solid;
+}
+.banner2 .left a{
+    line-height: 32px;
+    font-size: 14px;
+    color: black;
+    font-weight: 900;
+    margin-left: 20px;
+}
+.banner2 .left a:hover{
+    color: red;
+}
+.banner2 .center a:hover{
+    color: red;
+}
+.banner2 .right a:hover{
+    color: red;
+}
+.banner2 .center{
+    width: 275px;
+    height: 14px;
+    /* border: 1px red solid; */
+    position: absolute; left: 475px; top: 0;
+}
+.banner2 .center div{
+    width: 0px;
+    height: 0px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-left-color: #fd4a13;
+    border-left-style: solid;
+    border-left-width: 4px;
+    position: absolute; left: -4px; top: 12px;
+}
+.banner2 .center a{
+    font-size: 14px;
+    position: absolute; left: 0; top: 5px;
+    font-weight: 900;
+}
+.banner2 .right{
+    width: 300px;
+    height: 14px;
+    /* border: 1px red solid; */
+    position: absolute; left: 830px; top: 0;
+}
+.banner2 .right div{
+    width: 0px;
+    height: 0px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-left-color: #fd4a13;
+    border-left-style: solid;
+    border-left-width: 4px;
+    position: absolute; left: -10px; top: 12px;
+}
+.banner2 .right a{
+    font-size: 14px;
+    position: absolute; left: 0; top: 5px;
+    font-weight: 900;
+}
+.banner3-and-banner4{
+    width: 1170px;
+    height: 405px;
+    /* border: 1px red solid; */
+    margin: 0 auto;
+    position: relative;
+}
+.banner3{
+    width: 905px;
+    height: 210px;
+    /* margin-left: 174px; */
+    position: relative;
+}
+.banner3 .left{
+    width: 233px;
+    height: 210px;
+    position: absolute; left: 0; top: 0;
+}
+.banner3 .left .title{
+    width: 233px;
+    height: 35px;
+    background: #2e2e2e;
+    position: absolute;
+}
+.banner3 .left .title .left_logo{
+    width: 13px;
+    height: 43px;
+    position: absolute; left: 0; top: 0;
+}
+.banner3 .left .title .left_logo img{
+    width: 5px;
+    height: 35px;
+}
+.banner3 .left .title .center_btn{
+    width: 11px;
+    height: 11px;
+    background: #474747;
+    position: absolute; left: 19px; top: 12px;
+}
+.banner3 .left .title .center_btn .btn{
+    width: 0px;
+    height: 0px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-left-color: #ffffff;
+    border-left-style: solid;
+    border-left-width: 4px;
+    position: absolute; left: 4px; top: 2px;
+}
+.banner3 .left .title a{
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute; left: 40px; top: 8px;
+}
+.banner3 .left .text{
+    width: 233px;
+    height: 175px;
+    position: absolute; left: 0; top: 35px;
+    background: #d7d7d7;
+}
+.banner3 .left .text .text1{
+    width: 97px;
+    height: 117px;
+    position: absolute; left: 15px; top: 28px;
+}
+.banner3 .left .text .text1 div{
+    width: 97px;
+    height: 24px;
+    background: #e4e4e4;
+    margin-bottom: 7px;
+    position: relative;
+}
+.banner3 .left .text .text1 div div{
+    width: 6px;
+    height: 6px;
+    background: #c1c1c1;
+    position: absolute; left: 4px; top: 4px;
+}
+.banner3 .left .text .text1 div a{
+    font-size: 14px;
+    color: black;
+    position: absolute; left: 20px; top: 3px;
+}
+.banner3 .left .text .text1 div a:hover{
+    color: #fd4a13;
+}
+.banner3 .left .text .text2{
+    width: 97px;
+    height: 117px;
+    position: absolute; left: 120px; top: 28px;
+}
+.banner3 .left .text .text2 div{
+    width: 97px;
+    height: 24px;
+    background: #e4e4e4;
+    margin-bottom: 7px;
+    position: relative;
+}
+.banner3 .left .text .text2 div div{
+    width: 6px;
+    height: 6px;
+    background: #c1c1c1;
+    position: absolute; left: 4px; top: 4px;
+}
+.banner3 .left .text .text2 div a{
+    font-size: 14px;
+    color: black;
+    position: absolute; left: 20px; top: 3px;
+}
+.banner3 .left .text .text2 div a:hover{
+    color: #fd4a13;
+}
+.banner3 .left .text .text2 div:last-child a{
+    color: #9b9b9b;
+}
+.banner3 .right{
+    width: 670px;
+    height: 210px;
+    position: absolute; left: 233px; top: 0;
+}
+.banner3 .right .title{
+    width: 640px;
+    height: 35px;
+    border: 1px #d6d6d6 solid;
+    border-bottom: 1px #fd4a13 solid;
+    position: absolute; left: 15px; top: 0;
+    overflow: hidden;
+}
+.banner3 .right .title .left{
+    width: 79px;
+    height: 35px;
+    background: #fd4a13;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 35px;
+    box-shadow: 5px 8px rgba(0, 0, 0, .3)
+}
+.banner3 .right .title .left a{
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+.banner3 .right .title .center{
+    width: 56px;
+    height: 14px;
+    position: absolute; left: 150px; top: 6px;
+}
+.banner3 .right .title .center a{
+    font-size: 14px;
+    font-weight: 900;
+}
+.banner3 .right .title .center a:hover{
+    color: #fd4a13;
+}
+.banner3 .right .title .btn{
+    width: 50px;
+    height: 15px;
+    position: absolute; right: 10px; top: 8px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 2px;
+}
+.banner3 .right .title .btn:hover a{
+    color: #fd4a13;
+}
+.banner3 .right .title .btn a{
+    font-size: 12px;
+    color: #aaaaaa;
+    position: absolute; left: 5px; top: -2px;
+}
+.banner3 .right .text{
+    width: 605px;
+    height: 125px;
+    position: absolute; left: 34px; top: 65px;
+}
+.banner3 .right .text .photo{
+    width: 105px;
+    height: 125px;
+    border: 1px #cdcdcb solid;
+    position: absolute; left: 0; top: 0;
+}
+.banner3 .right .text .photo img{
+    width: 95px;
+    height: 115px;
+    position: absolute; left: 4px; top: 4px;
+}
+.banner3 .right .text .list{
+    width: 500px;
+    height: 125px;
+    position: absolute; left: 105px; top: 0;
+}
+.banner3 .right .text .list ul{
+    width: 100%;
+    height: 100%;
+}
+.banner3 .right .text .list ul li{
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+.banner3 .right .text .list ul li a{
+    font-size: 14px;
+    color: black;
+}
+.banner3 .right .text .list ul li:first-child a{
+    color: #fd4a13;
+}
+.banner3 .right .text .list ul li a:hover{
+    color: #fd4a13;
+}
+.banner3 .right .text .data{
+    width: 44px;
+    height: 113px;
+    position: absolute; right: 18px; top: 0;
+}
+.banner3 .right .text .data div{
+    margin-bottom: 5px;
+    color: #aaaaaa;
+}
+.banner4{
+    width: 905px;
+    height: 195px;
+    /* border: 1px red solid; */
+    /* margin-left: 174px; */
+    position: relative;
+    /* margin-top: 4px; */
+}
+.banner4 .left{
+    width: 233px;
+    height: 195px;
+    /* border: 1px red solid; */
+}
+.banner4 .left .title{
+    width: 232px;
+    height: 32px;
+    border: 1px #d6d6d6 solid;
+    border-bottom: 1px #808080 solid;
+    position: relative;
+}
+.banner4 .left .title .btn{
+    width: 16px;
+    height: 14px;
+    background: url(./images/icon_bg.gif) no-repeat 0 -150px;
+    position: absolute; left: 10px; top: 10px;
+}
+.banner4 .left .title a{
+    width: 51px;
+    height: 14px;
+    font-size: 12px;
+    position: absolute; left: 32px; top: 8px;
+    font-weight: 900;
+}
+.banner4 .left .title div a{
+    color: #aaaaaa;
+    font-size: 10px;
+    margin: 2px 0 0 150px;
+}
+.banner4 .left .text{
+    width: 177px;
+    height: 117px;
+    /* border: 1px red solid; */
+    margin: 24px 0 0 15px;
+}
+.banner4 .left .text ul{
+    width: 100%;
+    height: 100%;
+}
+.banner4 .left .text ul li{
+    position: relative;
+}
+.banner4 .left .text ul li div{
+    width: 10px;
+    height: 13px;
+    background: url(./images/icon_bg.gif) no-repeat -60px -30px;
+    position: absolute; left: 0; top: 6px;
+}
+.banner4 .left .text ul li a{
+    font-size: 11px;
+    line-height: 22px;
+    margin-left: 20px;
+    color: black;
+}
+.banner4 .left .text ul li a:hover{
+    color: #fd4a13;
+}
+.banner4 .center{
+    width: 645px;
+    height: 195px;
+    border: 1px #d6d6d6 solid;
+    position: absolute; left: 243px; top: 0;
+}
+.banner4 .center .title{
+    width: 644px;
+    height: 32px;
+    /* border: 1px #red solid; */
+    border-bottom: 1px #808080 solid;
+    position: relative;
+}
+.banner4 .center .title .btn{
+    width: 16px;
+    height: 17px;
+    background: url(./images/icon_bg.gif) no-repeat -0 -180px;
+    position: absolute; left: 10px; top: 8px;
+}
+.banner4 .center .title .text{
+    width: 52px;
+    height: 12px;
+    position: absolute; left: 35px; top: 4px;
+}
+.banner4 .center .title .text a{
+    font-size: 12px;
+    color: black;
+    font-weight: 900;
+}
+.banner4 .center .title .right_btn{
+    width: 50px;
+    height: 15px;
+    position: absolute; right: 10px; top: 8px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 2px;
+}
+.banner4 .center .title .right_btn a{
+    font-size: 12px;
+    color: #aaaaaa;
+    position: absolute; left: 5px; top: -2px;
+}
+.banner4 .center .photo{
+    width: 510px;
+    height: 135px;
+    /* border: 1px red solid; */
+    position: absolute; left: 34px; top: 54px;
+}
+/* .banner4 .center .photo ul{
+
+} */
+.banner4 .center .photo ul li{
+    width: 93px;
+    height: 135px;
+    float: left;
+    margin-right: 68px;
+    text-align: center;
+}
+.banner4 .center .photo ul li:last-child{
+    margin-right: -68px;
+}
+.banner4 .center .photo ul li div{
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+}
+.banner4 .center .photo ul li div a:hover{
+    color: #fd4a13;
+}
+.banner3-and-banner4 .sidebar{
+    width: 260px;
+    height: 330px;
+    /* border: 1px red solid; */
+    position: absolute; right: 0; top: 0;
+    background: #dcdcdc;
+}
+.banner3-and-banner4 .sidebar .title{
+    width: 52px;
+    height: 12px;
+}
+.banner3-and-banner4 .sidebar .title a{
+    font-size: 12px;
+    position: absolute; left: 21px; top: 27px;
+    color: black;
+    font-weight: 900;
+}
+.banner3-and-banner4 .sidebar .title p{
+    font-size: 12px;
+    position: absolute; left: 82px; top: 27px;
+    color: #676767;
+}
+.banner3-and-banner4 .sidebar .banner{
+    width: 205px;
+    height: 250px;
+    /* border: 1px red solid; */
+    position: absolute; left: 20px; top: 66px;
+}
+.banner3-and-banner4 .sidebar .banner ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner3-and-banner4 .sidebar .banner ul li{
+    width: 205px;
+    height: 42px;
+    border: 1px #e8e8e8 solid;
+    margin-bottom: 10px;
+    line-height: 42px;
+    background: white;
+}
+.banner3-and-banner4 .sidebar .banner ul li:last-child{
+    margin-bottom: -10px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .center{
+    width: 120px;
+    height: 12px;
+    /* border: 1px red solid; */
+    margin-left: 20px;
+    position: relative;
+}
+.banner3-and-banner4 .sidebar .banner ul li .center a{
+    font-size: 12px;
+    color: black;
+    position: absolute; left: 0; top: 0;
+}
+.banner3-and-banner4 .sidebar .banner ul li .center a:hover{
+    color: #fd4a13;
+}
+.banner3-and-banner4 .sidebar .banner ul li .right_one{
+    width: 29px;
+    height: 29px;
+    background: url(./images/icon_bg.gif) no-repeat 0 -211px;
+    margin-left: 160px;
+    margin-top: -2px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .right_two{
+    width: 29px;
+    height: 29px;
+    background: url(./images/icon_bg.gif) no-repeat 0 -241px;
+    margin-left: 160px;
+    margin-top: -4px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .right_three{
+    width: 29px;
+    height: 29px;
+    background: url(./images/icon_bg.gif) no-repeat 0 -271px;
+    margin-left: 160px;
+    margin-top: -2px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .right_four{
+    width: 29px;
+    height: 29px;
+    background: url(./images/icon_bg.gif) no-repeat -30px 0;
+    margin-left: 160px;
+    margin-top: -6px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .right_five{
+    width: 29px;
+    height: 29px;
+    background: url(./images/icon_bg.gif) no-repeat -30px -30px;
+    margin-left: 160px;
+    margin-top: -6px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .left_one{
+    width: 4px;
+    height: 19px;
+    background: #0080db;
+    position: absolute; left: 0; top: 14px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .left_two{
+    width: 4px;
+    height: 19px;
+    background: #61a301;
+    position: absolute; left: 0; top: 67px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .left_three{
+    width: 4px;
+    height: 19px;
+    background: #f50149;
+    position: absolute; left: 0; top: 122px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .left_four{
+    width: 4px;
+    height: 19px;
+    background: #995f91;
+    position: absolute; left: 0; top: 176px;
+}
+.banner3-and-banner4 .sidebar .banner ul li .left_five{
+    width: 4px;
+    height: 19px;
+    background: #ffb409;
+    position: absolute; left: 0; top: 230px;
+}
+.banner3-and-banner4 .sidebar_bottom{
+    width: 260px;
+    height: 75px;
+    background: #f8f8f8;
+    position: absolute; right: 0; bottom: 0;
+}
+.banner3-and-banner4 .sidebar_bottom .one{
+    width: 58px;
+    height: 16px;
+    position: absolute; left: 48px; top: 20px;
+}
+.banner3-and-banner4 .sidebar_bottom .one h2{
+    position: absolute; left: 0px; top: 0px;
+    font-size: 16px;
+    color: #7d7d7d;
+}
+.banner3-and-banner4 .sidebar_bottom .two{
+    width: 72px;
+    height: 12px;
+    position: absolute; left: 108px; top: 24px;
+}
+.banner3-and-banner4 .sidebar_bottom .two p{
+    position: absolute; left: 0px; top: 0px;
+    font-size: 12px;
+    color: #7d7d7d;
+}
+.banner3-and-banner4 .sidebar_bottom .three{
+    width: 132px;
+    height: 8px;
+    position: absolute; left: 50px; top: 44px;
+}
+.banner3-and-banner4 .sidebar_bottom .three p{
+    position: absolute; left: 0px; top: 0px;
+    font-size: 8px;
+    color: #7d7d7d;
+}
+.banner5{
+    width: 1170px;
+    height: 185px;
+    margin: 15px auto;
+    /* border: 1px red solid; */
+    position: relative;
+}
+.banner5 .left{
+    width: 232px;
+    height: 185px;
+    background: #f7f7f7;
+    border: 1px #ebebeb solid;
+}
+.banner5 .left .title{
+    width: 232px;
+    height: 32px;
+    background: white;
+    border: 1px #d6d6d6 solid;
+    border-bottom: 1px #808080 solid;
+    position: relative;
+}
+.banner5 .left .title .logo{
+    width: 22px;
+    height: 17px;
+    background: url(./images/icon_bg.gif) no-repeat -32px -60px;
+    position: absolute; left: 12px; top: 8px;
+}
+.banner5 .left .title .text{
+    width: 52px;
+    height: 12px;
+    position: absolute; left: 37px; top: 4px;
+}
+.banner5 .left .title .text a{
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+}
+.banner5 .left .photo{
+    width: 183px;
+    height: 87px;
+    position: absolute; left: 25px; top: 58px;
+}
+.banner5 .left .photo img{
+    float: left;
+}
+.banner5 .left .photo img:first-child{
+    margin-right: 8px;
+}
+.banner5 .right{
+    width: 925px;
+    height: 185px;
+    /* border: 1px red solid; */
+    position: absolute; right: 0; top: 0;
+    background: #f7f7f7;
+}
+.banner5 .right .title{
+    width: 925px;
+    height: 32px;
+    border: 1px #d6d6d6 solid;
+    border-bottom: 1px #818181 solid;
+    position: relative;
+    background: white;
+}
+.banner5 .right .title .logo{
+    width: 16px;
+    height: 12px;
+    background: url(./images/icon_bg.gif) no-repeat -30px -90px;
+    position: absolute; left: 14px; top: 8px;
+}
+.banner5 .right .title .text{
+    width: 52px;
+    height: 12px;
+}
+.banner5 .right .title .text a{
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+    position: absolute; left: 36px; top: 7px;
+}
+.banner5 .right .photo{
+    width: 925px;
+    height: 117px;
+    position: absolute; left: 41px; top: 50px;
+}
+.banner5 .right .photo ul{
+    width: 100%;
+    height: 100%;
+}
+.banner5 .right .photo ul li{
+    width: 74px;
+    height: 116px;
+    float: left;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+.banner5 .right .photo ul li:last-child{
+    margin-right: -40px;
+}
+.banner5 .right .photo ul li div{
+    font-size: 12px;
+    margin-top: 8px;
+}
+footer{
+    width: 100%;
+    height: 218px;
+    background: #303030;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+footer .text{
+    width: 55px;
+    height: 13px;
+    position: absolute; left: 376px; top: 45px;
+}
+footer .text a{
+    font-size: 13px;
+    color: #ffffff;
+}
+footer .photo{
+    width: 616px;
+    height: 51px;
+    position: absolute; left: 451px; top: 24px;
+}
+footer .photo li{
+    float: left;
+    margin-right: 20px;
+}
+footer .photo li:last-child{
+    margin-right: -20px;
+}
+footer .one{
+    font-size: 11px;
+    color: #909090;
+    padding-top: 90px;
+}
+footer .two{
+    font-size: 11px;
+    color: #909090;
+    padding-top: 5px;
+}
+footer address{
+    font-size: 11px;
+    color: #909090;
+    padding-top: 5px;
+    font-style: normal;
+}
+footer .three{
+    font-size: 11px;
+    color: #909090;
+    padding-top: 5px;
+}
+footer .four{
+    font-size: 11px;
+    color: #909090;
+    padding-top: 5px;
+}
